@@ -1,0 +1,18 @@
+{
+  "name": "24b01a4287_fsdii",
+  "version": "1.0.0",
+  "description": "Week 4 TypeScript Modules Experiment",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyothsna1506/FSD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
