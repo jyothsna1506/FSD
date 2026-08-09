@@ -1,0 +1,20 @@
+"use strict";
+function getFirstPackage(items) {
+    return items[0];
+}
+function wrapInBox(item) {
+    return {
+        parcel: item,
+        timestamp: new Date(),
+    };
+}
+const cities = ["Mumbai", "Delhi", "Banglore"];
+const firstCity = getFirstPackage(cities);
+console.log(`Sending first parcel to :${firstCity.toUpperCase()}`);
+const pincodes = [400001, 110001, 560001];
+const firstPin = getFirstPackage(pincodes);
+console.log(`Startibg delivery at Pincode : $${firstPin}`);
+const phone = { brand: "Samsung", model: "S24" };
+const packedPhone = wrapInBox(phone);
+console.log(`Packed item : ${packedPhone.parcel.brand} at ${packedPhone.timestamp}`);
+const autocity = getFirstPackage(cities);
